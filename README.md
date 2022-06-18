@@ -80,5 +80,12 @@ Employee salary is empSalary + 2000(allowance) if he is a permanent employee els
 Accept the details of 5 employees and print details of the employee with highest salary.
 Create class Tester with main method
 
-
+Program 2: Define class Production that has attributes String title, String director, String writer. Production class has 3 argument constructor that sets the values. It also has getter and setter methods and Overridden toString() of object class  to display details of class.
+class Play is a sub-class of Production with getter and setter methods and has an attribute int performances that is incremented every time a play happens. Add Overridden toString() of the object class to display details of class
+class Musical is a Play with songs. Musical object has all attributes of Play as well as String composer and String lyricist along with getter and setter methods. Override toString display all attributes of the Musical object
+In main create 3 objects of Play and 2 objects of Musical. Every time an object of Play or Musical is created, performances get incremented.  Also add the number of seats booked for each play or musical.
+Find the total box office collection, provided the cost of 1 seat for Play is Rs 500(can be variable) and the cost of 1 seat for Musical is Rs 800(can be variable)
+Display the total No. of performances as 5 and display the box office collection.
+Create a class Tester with the main method
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
