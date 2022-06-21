@@ -88,4 +88,41 @@ Find the total box office collection, provided the cost of 1 seat for Play is Rs
 Display the total No. of performances as 5 and display the box office collection.
 Create a class Tester with the main method
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Program 1.  Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. For example, SBI, ICICI and AXIS banks are given below.
+SBI  Interest Rate (Rates in % per annum)
+  if <07 Days 2.00
+    7–14 Days 3.00
+   15–30 Days 3.00
+   31-45 Days 3.00
+  46 -90 Days 4.05
+  91–120 Days 4.10
+121-180 Days  4.10
 
+ICICI  Interest Rate (Rates in % per annum)
+if <07 Days 2.00
+    7–14 Days 3.10
+   15–30 Days 3.20
+   31-45 Days 3.50
+  46 -90 Days 4.50
+  91–120 Days 4.70
+121-180 Days  4.90
+
+AXIS Interest Rate (Rates in % per annum)
+ICICI  Interest Rate (Rates in % per annum)
+if <07 Days 2.00
+    7–14 Days 3.15
+   15–30 Days 3.15
+   31-45 Days 3.45
+  46 -90 Days 4.05
+  91–120 Days 4.70
+121-180 Days  5.00
+
+Aayush has deposited Rs. 10000 in SBI Bank,  Rs. 12500 in ICICI Bank, and Rs. 20000 in AXIS bank respectively for a particular month.
+You need to print the money he will get by applying the rate of interest as per the bank and days.
+Create a class 'Bank' with a method 'get_rate_of_interest' which returns 2%.
+Make three subclasses named  SBI_Bank, ‘ICICI_Bank’ and 'AXIS_bank' with a method with the same name 'get_rate_of_interest' which returns the rate of interest.
+Also, give the final amount Ayush will get from that particular bank by applying the rate of interest and period. Use Calendar Class to count the number of days and amount he will get after maturity with the date of Maturity, if he deposits today.
+Note:
+1.  Use compound interest
+2. Get time period from the user
+3. Solve using method overriding
