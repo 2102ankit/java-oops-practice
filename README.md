@@ -126,3 +126,9 @@ Note:
 1.  Use compound interest
 2. Get time period from the user
 3. Solve using method overriding
+
+Program 2: Ankit works at ABC Company. He noticed that different roles(positions) have different salaries and bonuses. The 1st Role is an ‘Intern’ which has 3/4th of the base salary of an Employee.  Then there is ‘Clerk’ which has ½ of base salary. And then there are ‘Manager’ who have twice the base salary of that of an employee. Help him write a program in Java as follows.
+Create a class ‘Employee’ which has a method named ‘getSalary’ which returns a base salary of Rs. 10,000. It also has methods named ‘getBonus’ which returns the bonus amount for that role(initially set to Rs. 0). 
+Make 3 subclasses for different roles which inherit the ‘Employee’ class and each has functions named ‘getSalary’ and ‘getBonus’.(You can assume values for ‘getBonus’ method)
+Display the output for all cases. Also print the total salary received by each Employee after getting the bonus.
+Note : Solve using method overriding
