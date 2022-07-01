@@ -3,12 +3,11 @@ In this Repository my Java Practice Programs from College as well as Tutorials a
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment-2
-Program-1
-Write a class Book with title for the title of book of type String, author for the author’s name of type String, and price for the book price of type double. Using constructor define the values for data members. Create another class BookDemo with a main() method, which creates a Book titled “Developing Java Software” with authors Russel Winder and price $79.75. Prints the Book’s string representation to standard output (using System.out.println).
+Program-1: Write a class Book with title for the title of book of type String, author for the author’s name of type String, and price for the book price of type double. Using constructor define the values for data members.
+Create another class BookDemo with a main() method, which creates a Book titled “Developing Java Software” with authors Russel Winder and price $79.75.
+Prints the Book’s string representation to standard output (using System.out.println).
 
-Program - 2
-Write a class ‘Student’ with the following specifications:
-
+Program-2 :- Write a class ‘Student’ with the following specifications:
 Data Members:
 - String studName : Name of student
 - String sid : Unique ID of the student
@@ -18,15 +17,13 @@ Create a constructor to define the values for these data members. Take multiple 
 
 Experiment No. 03
 
-Program-1
-Create a Date class with data int year, int month, int date,  int hrs, int min, int sec. Create a default, no-argument constructor which sets the default date to January 1, 2000, 00:00:00 Create 3 overloaded setter methods 
+Program-1:- Create a Date class with data int year, int month, int date,  int hrs, int min, int sec. Create a default, no-argument constructor which sets the default date to January 1, 2000, 00:00:00 Create 3 overloaded setter methods 
 void setDate(int year, int month, int date)
 void setDate(int year, int month, int date, int hrs, int min)
 void setDate(int year, int month, int date, int hrs, int min, int sec)
 Also write a displayDate() method which will display the date depending on the type of date object created.
 
-Program-2
-Write a menu-driven program to recruit an employee (depending on his performance in various rounds) in some software company using constructor overloading.
+Program-2:- Write a menu-driven program to recruit an employee (depending on his performance in various rounds) in some software company using constructor overloading.
 Selection Criteria for each post is given below:
 i) Programmer (Minimum total of 80 marks):-
 Rounds:-
@@ -59,11 +56,9 @@ Make use of ‘this’ keyword.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment-4
-Program-1
-Write a program in Java to maintain the information of Movies which includes the information of name of movie , type of movie( action , thriller , comedy ,drama ) , Hero name , Heroine , budget in Rs. . Write a program to accept the information of movies from user and sort them according to the budget of the film
+Program-1:- Write a program in Java to maintain the information of Movies which includes the information of name of movie , type of movie( action , thriller , comedy ,drama ) , Hero name , Heroine , budget in Rs. . Write a program to accept the information of movies from user and sort them according to the budget of the film
 
-Program-2
-Write an editor program in java which can
+Program-2:- Write an editor program in java which can
 1. take paragraph as input.
 2. find number of occurance of a word
 3. find and deletes a word
@@ -72,7 +67,7 @@ Write an editor program in java which can
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Experiment-5
-Program 1. Define parent class "Employee" that has 3 private attributes String name, String id, int age.
+Program 1:- Define parent class "Employee" that has 3 private attributes String name, String id, int age.
 Employee has constructor with 3 arguments that set value of name, id, age. It also has getter and setter methods for all 3 private attributes.
 Class "SalariedEmployee" is a sub class of Employee and has 1 private attribute empSalary. "SalariedEmployee" can be permanent or on contract and has constructor SalariedEmployee(String name, String id, int age, double empSalary) to set the values.
 constructor SalariedEmployee must call the superclass constructor to set name, id, age and call setter method to set the salary.
@@ -80,7 +75,7 @@ Employee salary is empSalary + 2000(allowance) if he is a permanent employee els
 Accept the details of 5 employees and print details of the employee with highest salary.
 Create class Tester with main method
 
-Program 2: Define class Production that has attributes String title, String director, String writer. Production class has 3 argument constructor that sets the values. It also has getter and setter methods and Overridden toString() of object class  to display details of class.
+Program 2:- Define class Production that has attributes String title, String director, String writer. Production class has 3 argument constructor that sets the values. It also has getter and setter methods and Overridden toString() of object class  to display details of class.
 class Play is a sub-class of Production with getter and setter methods and has an attribute int performances that is incremented every time a play happens. Add Overridden toString() of the object class to display details of class
 class Musical is a Play with songs. Musical object has all attributes of Play as well as String composer and String lyricist along with getter and setter methods. Override toString display all attributes of the Musical object
 In main create 3 objects of Play and 2 objects of Musical. Every time an object of Play or Musical is created, performances get incremented.  Also add the number of seats booked for each play or musical.
@@ -88,7 +83,8 @@ Find the total box office collection, provided the cost of 1 seat for Play is Rs
 Display the total No. of performances as 5 and display the box office collection.
 Create a class Tester with the main method
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Program 1.  Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. For example, SBI, ICICI and AXIS banks are given below.
+Experiment-6
+Program 1:-  Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. For example, SBI, ICICI and AXIS banks are given below.
 SBI  Interest Rate (Rates in % per annum)
   if <07 Days 2.00
     7–14 Days 3.00
@@ -127,8 +123,20 @@ Note:
 2. Get time period from the user
 3. Solve using method overriding
 
-Program 2: Ankit works at ABC Company. He noticed that different roles(positions) have different salaries and bonuses. The 1st Role is an ‘Intern’ which has 3/4th of the base salary of an Employee.  Then there is ‘Clerk’ which has ½ of base salary. And then there are ‘Manager’ who have twice the base salary of that of an employee. Help him write a program in Java as follows.
+Program 2:- Ankit works at ABC Company. He noticed that different roles(positions) have different salaries and bonuses. The 1st Role is an ‘Intern’ which has 3/4th of the base salary of an Employee.  Then there is ‘Clerk’ which has ½ of base salary. And then there are ‘Manager’ who have twice the base salary of that of an employee. Help him write a program in Java as follows.
 Create a class ‘Employee’ which has a method named ‘getSalary’ which returns a base salary of Rs. 10,000. It also has methods named ‘getBonus’ which returns the bonus amount for that role(initially set to Rs. 0). 
 Make 3 subclasses for different roles which inherit the ‘Employee’ class and each has functions named ‘getSalary’ and ‘getBonus’.(You can assume values for ‘getBonus’ method)
 Display the output for all cases. Also print the total salary received by each Employee after getting the bonus.
 Note : Solve using method overriding
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Experiment-7
+Program-1:- Write an abstract class Course with an abstract method studentDetails().
+Create 2 classes Comps and IT which inherits class Course and implements studentDetails().
+The studentDetails() method should print the name, UID, and year (FE, SE, TE) of students of that Course. These details have to be taken from the user.
+Write a program that asks the user to choose a Course and prints details of all students in that course in a sorted manner as per the year(FE, SE, TE).
+
+Program-2:- Write a program to calculate the percentage of marks obtained in three subjects (each out of 100) by student A and in four subjects (each out of 100) by student B. 
+Create an abstract class 'Marks' with an abstract method 'getPercentage'. 
+It is inherited by two other classes 'A' and 'B' each having a method with the same name which returns the percentage of the students. 
+The constructor of student A takes the marks in three subjects as its parameters and the marks in four subjects as its parameters for student B. 
+Input to be taken from the user. Display the marks in highest order of student A and B.
