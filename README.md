@@ -140,3 +140,15 @@ Create an abstract class 'Marks' with an abstract method 'getPercentage'.
 It is inherited by two other classes 'A' and 'B' each having a method with the same name which returns the percentage of the students. 
 The constructor of student A takes the marks in three subjects as its parameters and the marks in four subjects as its parameters for student B. 
 Input to be taken from the user. Display the marks in highest order of student A and B.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Experiment-8
+Program-1:-
+Part A
+Consider two interfaces, Volume and SurfaceArea with methods getVolume() and getSurfaceArea() respectively. Class ‘Cylinder’ implements both Volume and SurfaceArea and implements their methods. The class contains their required dimensions as data members.
+Write a program which inputs its dimensions and prints its volume and surface area.
+
+Part B
+A banking system has two interfaces SavingAccount and CurrentAccount. The SavingAccount account has method getSimpleInterest() and CurrentAccont has method getCompoudInterest(). Both these interfaces are implemented by class Customer. Customer have data members: account type, interest rate, time and balance. The class then calculates interest on balance and prints it.
+
+Program-2:-
+A fast food centre has two interfaces EatItHere and TakeAway. They have methods like EatItHere have deliverOrder() and TakeAway have dispatchOrder(). The class Consumer inherits both of them. If Consumer orders a takeaway hen will be charged a convenience fee of Rs. 45/- or 5% of order price whichever is more. If he chooses to eat in a restaurant then he will be charged Rs. 500/- service charge or 10% of order price whichever is lower.  The class consumer has data members as order number and order price.
